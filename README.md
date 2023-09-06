@@ -151,4 +151,12 @@ With these steps, you can easily build, push, deploy, destroy, and clean your Py
 
 - This script assumes that the CSV documents contain textual data, and it counts words based on spaces and punctuation. You can further customize the word extraction process if needed.
 
+- You should have installed next tool/apps:
+  - docker
+  - docker-compose
+  - kubectl
+  - minikube (additionaly)
+  - make
+  - python
+  - pip
 Feel free to customize and use this script for your specific document analysis needs.

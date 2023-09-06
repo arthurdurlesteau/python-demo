@@ -4,7 +4,7 @@ default: build push deploy clean
 build:
 	docker build ./ -t 'artur98/${appName}:latest'
 push:
-		docker push 'artur98/${appName}:latest'
+	docker push 'artur98/${appName}:latest'
 compose:
 	docker-compose up; cd manifests; kompose convert -f ../docker-compose.yml
 deploy:
