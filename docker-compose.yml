@@ -1,0 +1,6 @@
+version: '3'
+services:
+  app:
+    image: artur98/${appName}:latest
+    volumes:
+        - ./docs:/docs
